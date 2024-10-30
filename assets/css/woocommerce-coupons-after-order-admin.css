@@ -1,0 +1,146 @@
+.wccao-nav-bar {
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 0;
+    line-height: inherit;
+}
+
+.nav-tab-wrapper, .wrap .wccao-nav-bar {
+    border-bottom: 0;
+}
+
+.wccao-nav-tab {
+    padding: 1em;
+}
+
+.wccao-nav-tab.nav-tab-active, .wccao-nav-tab.nav-tab-active:focus, .wccao-nav-tab.nav-tab-active:focus:active, .wccao-nav-tab.nav-tab-active:hover {
+    color:#702FFF;
+    background-color: #fff;
+}
+
+.wccao-section-admin {
+    border: 1px solid #cccacf;
+    padding: 1em 1.5em;
+    background-color: #fff;
+}
+
+.wccao-descr-section-admin::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    margin-top: 1em;
+}
+
+.wccao-input-description {
+    padding: 0;
+    margin: 0 0 0 7px;
+    clear: none;
+    display: inline;
+}
+
+.coupon-field-group {margin-bottom:1.2em;}
+
+.coupon-field-group > label {font-weight: 600;}
+
+input {font-weight: normal;}
+
+.wccao-error-tip {
+    max-width: 20em;
+    line-height: 1.8em;
+    position: absolute;
+    white-space: normal;
+    background: #d82223;
+    margin: 1.5em 1px 0 -1em;
+    z-index: 9999999;
+    color: #fff;
+    font-size: .8em;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0.618em 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,20%);
+    left: 25%;
+}
+
+.wccao-error-tip::after {
+    content: "";
+    display: block;
+    border: 8px solid #d82223;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    margin: -1em 0 0 -3px;
+}
+
+.wccao-editor-email {
+    background: #DFDFDF;
+    padding: 1em;
+}
+
+.wccao-list {
+    list-style:disc;
+    list-style-position: inside;
+}
+
+.woocommerce-help-tip::before {
+    content:'';
+    display: none;
+}
+
+.woocommerce-help-tip:hover::before {
+    content: attr(aria-label);
+    display: block;
+    position: absolute;
+    background: #3e3d41;
+    color: #fff;
+    bottom: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    z-index: 9999;
+    min-width: 100px;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0 0 0 / 0.1);
+}
+
+.disabled-link {
+    color: gray;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+/* Footer */
+#webpixelia-credit>* {
+    vertical-align: middle;
+}
+
+#webpixelia-credit>a {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-image:url('../img/logo_webpixelia_light_sprite.png'); 
+    background-position:0 0;
+    height: 30px;
+    width: 136px;
+    text-indent: 200px;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+}
+
+#webpixelia-credit>a:hover {
+    background-position:0 -98%; 
+}
+
+/* Notice */
+.email-message-send.error {
+    color: red;
+    font-weight: bold;
+}
+#wccao-email-success, .email-message-send.success {
+    color: green;
+    font-weight: bold;
+}
